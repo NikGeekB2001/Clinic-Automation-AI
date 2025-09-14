@@ -13,7 +13,7 @@ from langfuse import Langfuse
 load_dotenv()
 
 # Настройка Streamlit
-st.title("Медицинская система")
+st.title("Медицинская система разработчик Димас Тараканов")
 
 # Поле для ввода запроса пользователем
 user_input = st.text_input("Введите ваш запрос:")

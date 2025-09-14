@@ -84,7 +84,25 @@
    ```bash
    streamlit run ui.py
    ```
+Шаги для Windows ## Установка
 
+1. Клонируйте репозиторий.
+2. Установите зависимости:
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+```bash
+pip install -r requirements.txt
+
+Запуск RAG-системы:
+python main.py
+
+
+Запуск Streamlit приложения:
+ streamlit run app.py
+ 
 Приложение будет доступно по адресу `http://localhost:8501`
 
 ### Остановка приложения
